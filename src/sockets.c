@@ -1,5 +1,8 @@
 #include "sockets.h"
 
+
+#include "defaultTrace.h"
+#include "err.h"
 #include <sys/socket.h>
 
 THROWS  err_t safe_sendto(fd_t sd, const void *const buf, size_t size, int flags, const struct sockaddr *destAddr,

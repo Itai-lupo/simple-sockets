@@ -1,8 +1,8 @@
 #pragma once
 
 #include "files.h"
-#include "log.h"
 
+#include "defines/errType.h"
 #include <sys/socket.h>
 
 #ifdef __cplusplus
